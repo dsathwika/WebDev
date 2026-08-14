@@ -11,6 +11,9 @@ h2{
     margin-top:150px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(154, 226, 246);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
 }
 .card img {
     width: 100%;
@@ -25,6 +28,31 @@ h2{
 }
 .card button:hover{
     color:aqua;
-    background-color: black;
+    background-color: rgb(51, 5, 5);
     cursor:pointer;
+}
+
+.navbar {
+    border:2px solid black;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(236, 235, 242);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.navbar a {
+   padding: 15px;
+   text-decoration: none;
+   color: rgb(27, 7, 111);
+   
+}
+
+.navbar a:hover {
+    color: rgb(13, 152, 152);
+    cursor:pointer;
+}
+
+body {
+    background-color: rgb(209, 209, 239);
+    margin: 0;
 }
